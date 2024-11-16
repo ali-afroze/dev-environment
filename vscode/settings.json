@@ -1,0 +1,67 @@
+{
+    "workbench.iconTheme": "aut-icons",
+    "vscode_custom_css.imports": [
+      "file:///Users/{username}/.vscode/extensions/codevars.outrun-meets-synthwave-0.0.1/synthWaveStyles.css"
+    ],
+    "editor.fontLigatures": true,
+    "explorer.compactFolders": false,
+    "workbench.tree.indent": 20,
+    "workbench.colorTheme": "Outrun Night Meets Synthwave",
+    "editor.fontSize": 16,
+    "editor.fontFamily": "\"Fira Code iScript\",\"mononoki Nerd Font\", Menlo, Monaco, 'Courier New', monospace",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorBlinking": "expand",
+    "editor.lineHeight": 2,
+    "editor.fontWeight": "normal",
+    "editor.cursorStyle": "line-thin",
+    "window.zoomLevel": 1,
+    "terminal.external.linuxExec": "iterm",
+    "terminal.integrated.fontSize": 12,
+    "editor.wordWrap": "on",
+    "editor.accessibilitySupport": "off",
+    "editor.parameterHints.enabled": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "html.suggest.html5": false,
+    "editor.hover.enabled": false,
+    "workbench.sideBar.location": "left",
+    "terminal.integrated.env.osx": {
+      "CW_NEW_SESSION": "1"
+    },
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.tokenColorCustomizations": {
+      "textMateRules": [
+        {
+          "scope": [
+            "comment", // comments
+            "entity.name.type.class", // class names
+            "keyword", // import, export, return
+            "constant", // String, Number, Boolean..., this, super
+            "storage.modifier", // static keyword
+            "storage.type.class.js" // class keyword
+          ],
+          "settings": {
+            "fontStyle": "italic bold" // comments are italic
+          }
+        },
+        {
+          "scope": [
+            "invalid", // excluded from italics
+            "keyword.operator", // operators
+            "constant.numeric.css", // numeric constants
+            "keyword.other.unit.px.css", // unit constants
+            "constant.numeric.decimal.js", // decimal constants
+            "constant.numeric.json" // numeric constants in JSON
+          ],
+          "settings": {
+            "fontStyle": "" // no italic for these scopes
+          }
+        }
+      ]
+    }
+  }
+  
